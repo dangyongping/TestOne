@@ -11,6 +11,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         int  a = 4;
         int b = 6;
+        if (a<b){
+            System.out.print("bbbb");
+        }else {
+            System.out.print("aaaaaa");
+        }
 
     }
 }
